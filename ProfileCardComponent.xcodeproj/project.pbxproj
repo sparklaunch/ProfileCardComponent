@@ -13,6 +13,7 @@
 		9008911327ED654A009C364D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008910127ED6549009C364D /* ContentView.swift */; };
 		9008911427ED654A009C364D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9008910227ED654A009C364D /* Assets.xcassets */; };
 		9008911527ED654A009C364D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9008910227ED654A009C364D /* Assets.xcassets */; };
+		9008912027ED65C6009C364D /* KumbhSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9008911F27ED65C6009C364D /* KumbhSans.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		9008910727ED654A009C364D /* ProfileCardComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileCardComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9008910D27ED654A009C364D /* ProfileCardComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileCardComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9008910F27ED654A009C364D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9008911F27ED65C6009C364D /* KumbhSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KumbhSans.ttf; sourceTree = "<group>"; };
+		9008912127ED65DC009C364D /* ProfileCardComponent--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ProfileCardComponent--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 		900890FA27ED6549009C364D = {
 			isa = PBXGroup;
 			children = (
+				9008912127ED65DC009C364D /* ProfileCardComponent--iOS--Info.plist */,
 				900890FF27ED6549009C364D /* Shared */,
 				9008910E27ED654A009C364D /* macOS */,
 				9008910827ED654A009C364D /* Products */,
@@ -54,6 +58,7 @@
 		900890FF27ED6549009C364D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9008911E27ED65BD009C364D /* Fonts */,
 				9008910027ED6549009C364D /* ProfileCardComponentApp.swift */,
 				9008910127ED6549009C364D /* ContentView.swift */,
 				9008910227ED654A009C364D /* Assets.xcassets */,
@@ -76,6 +81,14 @@
 				9008910F27ED654A009C364D /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9008911E27ED65BD009C364D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9008911F27ED65C6009C364D /* KumbhSans.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9008911427ED654A009C364D /* Assets.xcassets in Resources */,
+				9008912027ED65C6009C364D /* KumbhSans.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +330,7 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProfileCardComponent--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -346,6 +361,7 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ProfileCardComponent--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
