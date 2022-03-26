@@ -9,8 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color("BackgroundColor")
+            VStack {
+                HStack {
+                    Image("BackgroundTopPattern")
+                        .resizable()
+                        .frame(width: 600, height: 600)
+                        .offset(x: -200, y: -200)
+                    Spacer()
+                }
+                Spacer()
+                HStack {
+                    Spacer()
+                    Image("BackgroundBottomPattern")
+                        .resizable()
+                        .frame(width: 600, height: 600)
+                        .offset(x: 200, y: 200)
+                }
+            }
+            Card()
+        }
+        .ignoresSafeArea()
     }
 }
 
