@@ -27,6 +27,13 @@ struct Detail: View {
                 .foregroundColor(Color("BodyColor"))
             Spacer()
                 .frame(height: 30)
+            Divider()
+                .background(Color("BodyColor"))
+            Spacer()
+                .frame(height: 30)
+            HStack {
+                
+            }
         }
     }
 }

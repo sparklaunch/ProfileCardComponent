@@ -12,15 +12,19 @@ struct Card: View {
         ZStack {
             VStack(spacing: 0) {
                 Color("CardColor")
-                    .frame(height: 200)
+                    .frame(height: 150)
                 Color.white
             }
             Profile()
+                .offset(y: -20)
             VStack {
                 Spacer()
                 Detail()
             }
         }
+        .clipShape(RoundedRectangle(cornerRadius: 15))
         .scaledToFit()
+        .padding(.horizontal, 120)
+        .shadow(radius: 5)
     }
 }
