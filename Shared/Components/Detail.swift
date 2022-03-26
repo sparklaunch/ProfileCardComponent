@@ -21,16 +21,16 @@ struct Detail: View {
                     .foregroundColor(Color("BodyColor"))
             }
             Spacer()
-                .frame(height: 20)
+                .frame(height: 15)
             Text("London")
                 .customFont(fontSize: 18)
                 .foregroundColor(Color("BodyColor"))
             Spacer()
-                .frame(height: 30)
+                .frame(height: 40)
             Divider()
                 .background(Color("BodyColor"))
             Spacer()
-                .frame(height: 30)
+                .frame(height: 20)
             HStack {
                 
             }

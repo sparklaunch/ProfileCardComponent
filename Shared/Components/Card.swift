@@ -16,15 +16,17 @@ struct Card: View {
                 Color.white
             }
             Profile()
-                .offset(y: -20)
+                .offset(y: -35)
             VStack {
                 Spacer()
+                Spacer()
+                    .frame(height: 40)
                 Detail()
             }
         }
         .clipShape(RoundedRectangle(cornerRadius: 15))
         .scaledToFit()
         .padding(.horizontal, 120)
-        .shadow(radius: 5)
+        .shadow(radius: 10)
     }
 }
