@@ -26,14 +26,21 @@ struct Detail: View {
                 .customFont(fontSize: 18)
                 .foregroundColor(Color("BodyColor"))
             Spacer()
-                .frame(height: 40)
+                .frame(height: 30)
             Divider()
                 .background(Color("BodyColor"))
             Spacer()
                 .frame(height: 20)
             HStack {
-                
+                Item(title: "80K", unit: "Followers")
+                Spacer()
+                Item(title: "803K", unit: "Likes")
+                Spacer()
+                Item(title: "1.4K", unit: "Photos")
             }
+            .padding(.horizontal, 40)
+            Spacer()
+                .frame(height: 30)
         }
     }
 }

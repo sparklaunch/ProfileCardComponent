@@ -16,11 +16,11 @@ struct Card: View {
                 Color.white
             }
             Profile()
-                .offset(y: -35)
+                .offset(y: -60)
             VStack {
                 Spacer()
                 Spacer()
-                    .frame(height: 40)
+                    .frame(height: 180)
                 Detail()
             }
         }

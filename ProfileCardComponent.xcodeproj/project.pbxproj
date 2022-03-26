@@ -18,6 +18,7 @@
 		9008912627EED2BF009C364D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008912527EED2BF009C364D /* Profile.swift */; };
 		9008912827EED2EF009C364D /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008912727EED2EF009C364D /* Detail.swift */; };
 		9008912B27EED3E0009C364D /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008912A27EED3E0009C364D /* CustomFont.swift */; };
+		9008912D27EEDAF3009C364D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008912C27EEDAF3009C364D /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9008912527EED2BF009C364D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		9008912727EED2EF009C364D /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		9008912A27EED3E0009C364D /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		9008912C27EEDAF3009C364D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				9008912327EECEDE009C364D /* Card.swift */,
 				9008912527EED2BF009C364D /* Profile.swift */,
 				9008912727EED2EF009C364D /* Detail.swift */,
+				9008912C27EEDAF3009C364D /* Item.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				9008912B27EED3E0009C364D /* CustomFont.swift in Sources */,
 				9008912627EED2BF009C364D /* Profile.swift in Sources */,
 				9008912427EECEDE009C364D /* Card.swift in Sources */,
+				9008912D27EEDAF3009C364D /* Item.swift in Sources */,
 				9008911027ED654A009C364D /* ProfileCardComponentApp.swift in Sources */,
 				9008912827EED2EF009C364D /* Detail.swift in Sources */,
 			);
