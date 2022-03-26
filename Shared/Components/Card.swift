@@ -9,16 +9,14 @@ import SwiftUI
 
 struct Card: View {
     var body: some View {
-        VStack {
-            Color("CardColor")
-                .frame(height: 100)
-            Image("Victor")
-                .resizable()
-                .frame(width: 100, height: 100)
-                .clipShape(Circle())
-                .overlay(Circle()
-                    .stroke(lineWidth: 5)
-                    .foregroundColor(.white))
+        ZStack(alignment: .top) {
+            VStack(spacing: 0) {
+                Color("CardColor")
+                    .frame(height: 200)
+                Color.white
+            }
+            Profile()
+            Detail()
         }
         .padding(.horizontal, 30)
         .scaledToFit()

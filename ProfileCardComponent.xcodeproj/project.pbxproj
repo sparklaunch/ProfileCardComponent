@@ -15,6 +15,9 @@
 		9008911527ED654A009C364D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9008910227ED654A009C364D /* Assets.xcassets */; };
 		9008912027ED65C6009C364D /* KumbhSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9008911F27ED65C6009C364D /* KumbhSans.ttf */; };
 		9008912427EECEDE009C364D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008912327EECEDE009C364D /* Card.swift */; };
+		9008912627EED2BF009C364D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008912527EED2BF009C364D /* Profile.swift */; };
+		9008912827EED2EF009C364D /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008912727EED2EF009C364D /* Detail.swift */; };
+		9008912B27EED3E0009C364D /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008912A27EED3E0009C364D /* CustomFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		9008911F27ED65C6009C364D /* KumbhSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KumbhSans.ttf; sourceTree = "<group>"; };
 		9008912127ED65DC009C364D /* ProfileCardComponent--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ProfileCardComponent--iOS--Info.plist"; sourceTree = "<group>"; };
 		9008912327EECEDE009C364D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9008912527EED2BF009C364D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		9008912727EED2EF009C364D /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		9008912A27EED3E0009C364D /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		900890FF27ED6549009C364D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9008912927EED3DA009C364D /* Modifiers */,
 				9008912227EECED7009C364D /* Components */,
 				9008911E27ED65BD009C364D /* Fonts */,
 				9008910027ED6549009C364D /* ProfileCardComponentApp.swift */,
@@ -98,8 +105,18 @@
 			isa = PBXGroup;
 			children = (
 				9008912327EECEDE009C364D /* Card.swift */,
+				9008912527EED2BF009C364D /* Profile.swift */,
+				9008912727EED2EF009C364D /* Detail.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		9008912927EED3DA009C364D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				9008912A27EED3E0009C364D /* CustomFont.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9008911227ED654A009C364D /* ContentView.swift in Sources */,
+				9008912B27EED3E0009C364D /* CustomFont.swift in Sources */,
+				9008912627EED2BF009C364D /* Profile.swift in Sources */,
 				9008912427EECEDE009C364D /* Card.swift in Sources */,
 				9008911027ED654A009C364D /* ProfileCardComponentApp.swift in Sources */,
+				9008912827EED2EF009C364D /* Detail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
