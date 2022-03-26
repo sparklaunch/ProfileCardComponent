@@ -20,6 +20,13 @@ struct Detail: View {
                     .customFont(fontSize: 24)
                     .foregroundColor(Color("BodyColor"))
             }
+            Spacer()
+                .frame(height: 20)
+            Text("London")
+                .customFont(fontSize: 18)
+                .foregroundColor(Color("BodyColor"))
+            Spacer()
+                .frame(height: 30)
         }
     }
 }

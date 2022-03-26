@@ -9,16 +9,18 @@ import SwiftUI
 
 struct Card: View {
     var body: some View {
-        ZStack(alignment: .top) {
+        ZStack {
             VStack(spacing: 0) {
                 Color("CardColor")
                     .frame(height: 200)
                 Color.white
             }
             Profile()
-            Detail()
+            VStack {
+                Spacer()
+                Detail()
+            }
         }
-        .padding(.horizontal, 30)
         .scaledToFit()
     }
 }
